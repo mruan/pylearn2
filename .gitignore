@@ -16,3 +16,13 @@
 
 #Don't track Pycharm .idea folder
 .idea
+
+#Don't track these directories
+build/
+dist/
+pylearn2.egg-info/
+
+#Don't track eclipse files
+.project
+.pydevproject
+

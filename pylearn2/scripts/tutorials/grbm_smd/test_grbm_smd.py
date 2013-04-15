@@ -14,8 +14,9 @@ def test_train_example():
     path = pylearn2.__path__[0]
     train_example_path = path + '/scripts/tutorials/grbm_smd'
     cwd = os.getcwd()
+    print cwd
     try:
-        os.chdir(train_example_path)
+#        os.chdir(train_example_path)
         train_yaml_path = 'cifar_grbm_smd.yaml'
         train_object = load_train_file(train_yaml_path)
 
